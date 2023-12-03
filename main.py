@@ -1,12 +1,19 @@
 from flask import Flask, render_template, request, flash, redirect, url_for
-import smtplib
 # from dotenv import load_dotenv
 import os
 # load_dotenv()
+from flask_mail import Mail, Message
 
+mail=Mail()
 app = Flask(__name__)
 app.secret_key = os.environ.get('FLASK_KEY')
-
+app.config['MAIL_SERVER']='smtp.gmail.com'
+app.config['MAIL_PORT'] = 465
+app.config['MAIL_USERNAME'] = os.environ.get('FROM_EMAIL')
+app.config['MAIL_PASSWORD'] = os.environ.get('PASSWORD')
+app.config['MAIL_USE_TLS'] = False
+app.config['MAIL_USE_SSL'] = True
+mail.init_app(app)
 
 PROJECT = [
     {
@@ -68,12 +75,7 @@ PROJECT = [
 
  ]
 
-def send_mail(msg):
-    with smtplib.SMTP('smtp.gmail.com') as connection:
-        connection.starttls()
-        connection.login(user=os.environ.get('FROM_EMAIL'), password=os.environ.get('PASSWORD'))
-        connection.sendmail(from_addr=os.environ.get('FROM_EMAIL'), to_addrs=os.environ.get('TO_EMAIL'), msg=msg)
-        print('Email sent')
+
 
 @app.route('/')
 def home():
@@ -92,8 +94,12 @@ def contact():
         name = request.form['name']
         email = request.form['email']
         message = request.form['message']
-        msg=f'Subject: Client from your portfolio!!!\n\nName: {name}\nEmail: {email}\nMessage: {message}.'
-        send_mail(msg)
+        msg = Message("Client from your portfolio!!!",
+                  sender=os.environ.get('FROM_EMAIL'),
+                  recipients=[os.environ.get('TO_EMAIL')])
+        msg.body=f'Name: {name}\nEmail: {email}\nMessage: {message}.'
+        mail.send(msg)
+        
         flash('Message sent succesfully!')
         redirect(url_for('contact'))
 
