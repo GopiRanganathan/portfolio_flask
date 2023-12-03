@@ -1,8 +1,8 @@
 from flask import Flask, render_template, request, flash, redirect, url_for
 import smtplib
-from dotenv import load_dotenv
+# from dotenv import load_dotenv
 import os
-load_dotenv()
+# load_dotenv()
 
 app = Flask(__name__)
 app.secret_key = os.environ.get('FLASK_KEY')
@@ -100,4 +100,4 @@ def contact():
     return render_template('contact.html', active=active_page)
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run(debug=False)
