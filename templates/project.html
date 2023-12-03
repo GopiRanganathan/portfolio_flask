@@ -1,0 +1,37 @@
+{% include "header.html" %}
+ <div class="container projects my-5">
+
+    <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+      {% for project in projects %}
+      <div class="col">
+        <div class="card shadow-sm">
+            <img src="{{url_for('static', filename=project.img_url)}}" alt="{{project.title}}">    
+           <div class="card-body" >
+            <p class="card-text">
+                <span class="h3">{{project.title}}</span>
+
+                <div class="d-flex flex-wrap gap-2 justify-content-start ">
+                  {% for item in project.web_dev: %}
+                <span class="badge bg-dark-subtle text-primary-emphasis rounded-pill">{{item}}</span>
+              
+               {% endfor %}
+              </div>
+
+            </p>
+            <div class="d-flex justify-content-between align-items-center">
+              <div class="btn-group">
+                <a class="btn btn-sm btn-outline-secondary" href="{{project.demo_link}}">Demo</a>
+                <a  class="btn btn-sm btn-outline-secondary" href="{{project.github}}">Github</a>
+              </div>
+              <!-- <small class="text-body-secondary">9 mins</small> -->
+            </div>
+          </div>
+        </div>
+      </div>
+      {% endfor %}
+      
+  
+    </div>
+  </div>
+ 
+  {% include "footer.html" %}

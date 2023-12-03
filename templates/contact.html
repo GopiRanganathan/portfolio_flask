@@ -1,0 +1,40 @@
+{% include "header.html" %}
+<div class="contact  d-flex flex-wrap align-items-center">
+  
+<div class="container  d-flex flex-wrap align-items-center justify-content-center " >
+    <div class="row  bg-light p-md-5 p-4" style="--bs-bg-opacity: .5;">
+        <div class="col">
+            <h1 class="display-5 fw-bold text-center lh-1 mb-5">Get in Touch</h1>
+            <form method="POST" action="{{url_for('contact')}}">
+                <div class="mb-3">
+                    <input type="text" class="form-control" name="name" placeholder="Your name">
+               
+        
+                  </div>
+                <div class="mb-3">
+                  <input type="email" class="form-control" name="email" placeholder="Email">
+               
+                </div>
+                <div class="mb-3">
+                    <textarea class="form-control" name="message" rows="3" placeholder="Type your message here"></textarea>
+                    
+                  </div>
+              
+              
+                <button type="submit" class="btn btn-bd-secondary w-100">Submit</button>
+                {% with messages = get_flashed_messages() %}
+                {% if messages %}
+                  {% for message in messages %}
+                    <p class="text-success text-center my-2">{{ message }}</p>
+                  {% endfor %}
+              
+                {% endif %}
+              {% endwith %}
+              </form>
+        </div>
+   
+    </div>
+</div>
+</div>
+{% include "footer.html" %}
+ 
