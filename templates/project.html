@@ -20,7 +20,11 @@
             </p>
             <div class="d-flex justify-content-between align-items-center">
               <div class="btn-group">
+                {% if project.demo_link == '#' %}
+                <a class="btn btn-sm btn-outline-secondary disabled" href="{{project.demo_link}}">Demo</a>
+                {% else %}
                 <a class="btn btn-sm btn-outline-secondary" href="{{project.demo_link}}">Demo</a>
+                {% endif %}
                 <a  class="btn btn-sm btn-outline-secondary" href="{{project.github}}">Github</a>
               </div>
               <!-- <small class="text-body-secondary">9 mins</small> -->

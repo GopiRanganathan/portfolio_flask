@@ -71,6 +71,14 @@ PROJECT = [
        'demo_link': 'https://gopiranganathan.github.io/random-quote-machine/',
        'github': 'https://github.com/GopiRanganathan/random-quote-machine',
        'web_dev': ['HTML', 'CSS', 'JavaScript', 'ReactJS']
+   },
+
+    {
+       'title': 'Image Watermarking App',
+       'img_url': 'images/watermarking.png',
+       'demo_link': '#',
+       'github': 'https://github.com/GopiRanganathan/image-watermark',
+       'web_dev': ['Python', 'Tkinter', 'Pillow']
    }
 
  ]
