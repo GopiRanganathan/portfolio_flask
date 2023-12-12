@@ -79,6 +79,13 @@ PROJECT = [
        'demo_link': '#',
        'github': 'https://github.com/GopiRanganathan/image-watermark',
        'web_dev': ['Python', 'Tkinter', 'Pillow']
+   },
+    {
+       'title': 'Typing Speed Test App',
+       'img_url': 'images/typing-speed-test.png',
+       'demo_link': '#',
+       'github': 'https://github.com/GopiRanganathan/typing-speed-test',
+       'web_dev': ['Python', 'Tkinter']
    }
 
  ]
