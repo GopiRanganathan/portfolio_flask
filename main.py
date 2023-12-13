@@ -86,6 +86,13 @@ PROJECT = [
        'demo_link': '#',
        'github': 'https://github.com/GopiRanganathan/typing-speed-test',
        'web_dev': ['Python', 'Tkinter']
+   },
+   {
+       'title': 'Breakout Game',
+       'img_url': 'images/breakout-game.png',
+       'demo_link': '#',
+       'github': 'https://github.com/GopiRanganathan/breakout-game',
+       'web_dev': ['Python', 'Turtle']
    }
 
  ]
