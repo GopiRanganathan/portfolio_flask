@@ -93,6 +93,20 @@ PROJECT = [
        'demo_link': '#',
        'github': 'https://github.com/GopiRanganathan/breakout-game',
        'web_dev': ['Python', 'Turtle']
+   },
+   {
+       'title': 'Cafe & Wifi API',
+       'img_url': 'images/cafe-api.png',
+       'demo_link': 'https://cafe-api-nzxp.onrender.com/',
+       'github': 'https://github.com/GopiRanganathan/cafe-api',
+       'web_dev': ['Python', 'Flask']
+   },
+   {
+       'title': 'Cafe website using Cafe & Wifi API',
+       'img_url': 'images/cafe-wifi.png',
+       'demo_link': 'https://cafe-wifi-gr.onrender.com/',
+       'github': 'https://github.com/GopiRanganathan/cafe-wifi',
+       'web_dev': ['Python', 'Flask', 'HTML', 'CSS', 'Bootstrap']
    }
 
  ]
