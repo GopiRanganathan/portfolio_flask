@@ -40,37 +40,12 @@ PROJECT = [
        'github': 'https://github.com/GopiRanganathan/blog', 
        'web_dev': ['Flask']
    },
-
-   {
-       'title': 'Portfolio 2',
-       'img_url': 'images/portfolio-2.png',
-       'demo_link': 'https://gopiranganathan.github.io/portfolio_react/',
-       'github': 'https://github.com/GopiRanganathan/portfolio_react',
-       'web_dev': ['HTML', 'CSS', 'JavaScript', 'ReactJS']
-   },
-
-   {
-       'title': 'Portfolio 1',
-       'img_url': 'images/portfolio-1.png',
-       'demo_link': 'https://gopiranganathan.github.io/portfolio/',
-       'github': 'https://github.com/GopiRanganathan/portfolio',
-       'web_dev': ['HTML', 'CSS']
-   }, 
-
-   {
-       'title': 'Markdown Previewer', 
-       'img_url': 'images/markdown-previewer.png',
-       'demo_link': 'https://gopiranganathan.github.io/markdown-previewer/',
-       'github': 'https://github.com/GopiRanganathan/markdown-previewer',
-       'web_dev': ['HTML', 'CSS', 'JavaScript', 'ReactJS']
-   }, 
-
-   {
-       'title': 'Random Quote Machine',
-       'img_url': 'images/random-quote-machine.png',
-       'demo_link': 'https://gopiranganathan.github.io/random-quote-machine/',
-       'github': 'https://github.com/GopiRanganathan/random-quote-machine',
-       'web_dev': ['HTML', 'CSS', 'JavaScript', 'ReactJS']
+    {
+       'title': 'Todo List',
+       'img_url': 'images/todo.png',
+       'demo_link': 'https://todo-ghbn.onrender.com/',
+       'github': 'https://github.com/GopiRanganathan/todo',
+       'web_dev': ['Python', 'Flask', 'HTML', 'CSS', 'JavaScript', 'Bootstrap']
    },
 
     {
@@ -107,6 +82,38 @@ PROJECT = [
        'demo_link': 'https://cafe-wifi-gr.onrender.com/',
        'github': 'https://github.com/GopiRanganathan/cafe-wifi',
        'web_dev': ['Python', 'Flask', 'HTML', 'CSS', 'Bootstrap']
+   },
+
+   {
+       'title': 'Portfolio 2',
+       'img_url': 'images/portfolio-2.png',
+       'demo_link': 'https://gopiranganathan.github.io/portfolio_react/',
+       'github': 'https://github.com/GopiRanganathan/portfolio_react',
+       'web_dev': ['HTML', 'CSS', 'JavaScript', 'ReactJS']
+   },
+
+   {
+       'title': 'Portfolio 1',
+       'img_url': 'images/portfolio-1.png',
+       'demo_link': 'https://gopiranganathan.github.io/portfolio/',
+       'github': 'https://github.com/GopiRanganathan/portfolio',
+       'web_dev': ['HTML', 'CSS']
+   }, 
+
+   {
+       'title': 'Markdown Previewer', 
+       'img_url': 'images/markdown-previewer.png',
+       'demo_link': 'https://gopiranganathan.github.io/markdown-previewer/',
+       'github': 'https://github.com/GopiRanganathan/markdown-previewer',
+       'web_dev': ['HTML', 'CSS', 'JavaScript', 'ReactJS']
+   }, 
+
+   {
+       'title': 'Random Quote Machine',
+       'img_url': 'images/random-quote-machine.png',
+       'demo_link': 'https://gopiranganathan.github.io/random-quote-machine/',
+       'github': 'https://github.com/GopiRanganathan/random-quote-machine',
+       'web_dev': ['HTML', 'CSS', 'JavaScript', 'ReactJS']
    }
 
  ]
