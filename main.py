@@ -83,6 +83,20 @@ PROJECT = [
        'github': 'https://github.com/GopiRanganathan/cafe-wifi',
        'web_dev': ['Python', 'Flask', 'HTML', 'CSS', 'Bootstrap']
    },
+     {
+       'title': 'Dangerous Writing App',
+       'img_url': 'images/text-disappearing-app.png',
+       'demo_link': '#',
+       'github': 'https://github.com/GopiRanganathan/text-disappearing-app',
+       'web_dev': ['Python', 'Tkinter']
+   },
+     {
+       'title': 'PDF to Audio',
+       'img_url': 'images/pdf-to-audio.png',
+       'demo_link': '#',
+       'github': 'https://github.com/GopiRanganathan/text-to-audio',
+       'web_dev': ['Python', 'Tkinter']
+   },
 
    {
        'title': 'Portfolio 2',
