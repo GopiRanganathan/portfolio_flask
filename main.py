@@ -97,7 +97,20 @@ PROJECT = [
        'github': 'https://github.com/GopiRanganathan/text-to-audio',
        'web_dev': ['Python', 'Tkinter']
    },
-
+        {
+       'title': 'Web Scrape Prof. Course',
+       'img_url': 'images/web-scrape-coursera.png',
+       'demo_link': '#',
+       'github': 'https://github.com/GopiRanganathan/web-scrape-coursera',
+       'web_dev': ['Python', 'BeautifulSoup4']
+   },
+     {
+       'title': 'Space Invaders',
+       'img_url': 'images/space-invaders.png',
+       'demo_link': '#',
+       'github': 'https://github.com/GopiRanganathan/space-invaders',
+       'web_dev': ['Python', 'pygame']
+   },
    {
        'title': 'Portfolio 2',
        'img_url': 'images/portfolio-2.png',
