@@ -55,6 +55,13 @@ PROJECT = [
        'github': 'https://github.com/GopiRanganathan/todo',
        'web_dev': ['Python', 'Flask', 'HTML', 'CSS', 'JavaScript', 'Bootstrap']
    },
+    {
+       'title': 'Filmy',
+       'img_url': 'images/custom-api.png',
+       'demo_link': 'https://filmy-f8rw.onrender.com/',
+       'github': 'https://github.com/GopiRanganathan/custom-api-website',
+       'web_dev': ['Python', 'Flask', 'HTML', 'CSS', 'Bootstrap', 'TMDB API']
+   },
 
     {
        'title': 'Image Watermarking App',
