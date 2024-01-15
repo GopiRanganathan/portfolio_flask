@@ -16,6 +16,14 @@ app.config['MAIL_USE_SSL'] = True
 mail.init_app(app)
 
 PROJECT = [
+     {
+    'title': 'Online Shop Website',
+    'img_url': 'images/hoodhaven.jpg',
+    'demo_link': '#',
+    'github': 'https://github.com/GopiRanganathan/online-shop',
+    'web_dev': ['HTML', 'CSS', 'JavaScript', 'Bootstrap','Python', 'Flask', 'Flask-SQLAlchmey', 'Stripe']
+   },
+
     {
     'title': 'Simple Calculator',
     'img_url': 'images/calculator.jpg',
