@@ -62,6 +62,13 @@ PROJECT = [
        'github': 'https://github.com/GopiRanganathan/custom-api-website',
        'web_dev': ['Python', 'Flask', 'HTML', 'CSS', 'Bootstrap', 'TMDB API']
    },
+ {
+       'title': 'Image Color Palatte Generator',
+       'img_url': 'images/color-palette.png',
+       'demo_link': 'https://image-color-palette-generator-6epa.onrender.com',
+       'github': 'https://github.com/GopiRanganathan/image-color-palette-generator',
+       'web_dev': ['Python', 'Flask', 'HTML', 'Bootstrap', 'JavaScript', 'NumPy']
+   },
 
     {
        'title': 'Image Watermarking App',
