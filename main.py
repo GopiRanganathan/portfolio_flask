@@ -18,7 +18,7 @@ mail.init_app(app)
 PROJECT = [
      {
     'title': 'Online Shop Website',
-    'img_url': 'images/hoodhaven.jpg',
+    'img_url': 'images/hoodhaven.png',
     'demo_link': '#',
     'github': 'https://github.com/GopiRanganathan/online-shop',
     'web_dev': ['HTML', 'CSS', 'JavaScript', 'Bootstrap','Python', 'Flask', 'Flask-SQLAlchmey', 'Stripe']
